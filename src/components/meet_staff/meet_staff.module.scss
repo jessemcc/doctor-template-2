@@ -1,0 +1,38 @@
+.meetStaffContainer {
+    width: 100%;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.staffContainer {
+    height: 250px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+
+    .imgStyle {
+        height: 100%;
+    }
+
+    .infoContainerLeft {
+        width: 100%;
+        text-align: center;
+        padding-right: 2em;
+
+        .strongStyle {
+            font-size: 1.2em;
+        }
+    }
+
+    .infoContainerRight {
+        width: 100%;
+        text-align: center;
+        padding-left: 2em;;
+
+        .strongStyle {
+            font-size: 1.2em;
+        }
+    }
+}

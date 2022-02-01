@@ -1,0 +1,27 @@
+.aboutContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3em;
+}
+
+.imageContainer {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+}
+
+.imageStyle {
+    height: 75%;
+    margin: auto auto;
+}
+
+.infoContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
