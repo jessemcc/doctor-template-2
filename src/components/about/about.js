@@ -15,12 +15,13 @@ const qualification6 = "Qual6";
     return (
         <div className={AboutStyle.aboutContainer} id="aboutHash">
             <div className={AboutStyle.imageContainer}>
+                <h1 className={AboutStyle.phoneOnly}>About {doctorName}</h1>
                 <img className={AboutStyle.imageStyle} src={DoctorImg} alt="Image of Doctor" />
             </div>
             <div className={AboutStyle.infoContainer}>
-                <h1>About {doctorName}</h1>
+                <h1 className={AboutStyle.desktopOnly}>About {doctorName}</h1>
                 <h4>Qualifications</h4>
-                <ul>
+                <ul className={AboutStyle.listStyle}>
                     <li>{qualification1}</li>
                     <li>{qualification2}</li>
                     <li>{qualification3}</li>
@@ -28,7 +29,7 @@ const qualification6 = "Qual6";
                     <li>{qualification5}</li>
                     <li>{qualification6}</li>
                 </ul>
-                <p><h4>About me</h4>Lorem ipsum dolor sit amet, consectetur 
+                <p>Lorem ipsum dolor sit amet, consectetur 
                     adipiscing elit. Aenean mattis pellentesque 
                     lacus, quis egestas purus efficitur et. 
                     Suspendisse aliquet congue velit tincidunt 

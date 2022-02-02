@@ -40,41 +40,41 @@ export const MeetStaff = () => {
             <div className={StaffStyle.staffContainer}>
                 <img className={StaffStyle.imgStyle} src={DoctorImg} alt="Image of Doctor" />
                 <div className={StaffStyle.infoContainerRight}>
-                    <h2>{doctorName1}</h2>
+                    <h2 className={StaffStyle.tabletPortraitTitle}>{doctorName1}</h2>
                     <p><strong className={StaffStyle.strongStyle}>Qualifications: </strong>{doc1Qual1}, {doc1Qual2}, {doc1Qual3}, {doc1Qual4}</p>
-                    <p><strong className={StaffStyle.strongStyle}>About me: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor leo vel neque ultrices, ornare malesuada lacus congue. Morbi sagittis consectetur auctor. Integer quis tincidunt orci. Nam posuere varius nisl, a convallis mi varius vel. Aenean ullamcorper interdum justo, quis posuere diam gravida ut. Quisque ut odio ut nulla pulvinar volutpat et non enim. Donec nec hendrerit nunc. Phasellus arcu magna, elementum nec egestas sodales, ultricies ut nisl.</p>
+                    <p className={StaffStyle.desktopOnly}><strong className={StaffStyle.strongStyle}>About me: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor leo vel neque ultrices, ornare malesuada lacus congue. Morbi sagittis consectetur auctor. Integer quis tincidunt orci. Nam posuere varius nisl, a convallis mi varius vel. Aenean ullamcorper interdum justo, quis posuere diam gravida ut. Quisque ut odio ut nulla pulvinar volutpat et non enim. Donec nec hendrerit nunc. Phasellus arcu magna, elementum nec egestas sodales, ultricies ut nisl.</p>
                 </div>
             </div>
             <div className={StaffStyle.staffContainer}>
                 <div className={StaffStyle.infoContainerLeft}>
-                    <h2>{doctorName2}</h2>
+                    <h2 className={StaffStyle.tabletPortraitTitle}>{doctorName2}</h2>
                     <p><strong className={StaffStyle.strongStyle}>Qualifications: </strong>{doc2Qual1}, {doc2Qual2}, {doc2Qual3}, {doc2Qual4}</p>
-                    <p><strong className={StaffStyle.strongStyle}>About me: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae fringilla augue, ut facilisis purus. Fusce vulputate dignissim lacus quis eleifend. Nunc facilisis eu risus vitae faucibus. Maecenas hendrerit felis non orci elementum suscipit. Vestibulum non mauris at diam dignissim luctus. Aliquam bibendum, dolor eget lobortis scelerisque, diam est scelerisque tortor, id egestas augue nibh fermentum dolor. Vivamus ullamcorper vel sem a tincidunt. Morbi vel mauris pellentesque, interdum tortor nec, euismod purus. Ut a sollicitudin mi. Fusce mollis ac risus sit amet blandit. Phasellus tortor enim, iaculis a nulla in, lobortis malesuada ante. Suspendisse et leo a augue sodales malesuada.</p>
+                    <p className={StaffStyle.desktopOnly}><strong className={StaffStyle.strongStyle}>About me: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae fringilla augue, ut facilisis purus. Fusce vulputate dignissim lacus quis eleifend. Nunc facilisis eu risus vitae faucibus. Maecenas hendrerit felis non orci elementum suscipit. Vestibulum non mauris at diam dignissim luctus. Aliquam bibendum, dolor eget lobortis scelerisque, diam est scelerisque tortor, id egestas augue nibh fermentum dolor. Vivamus ullamcorper vel sem a tincidunt.</p>
                 </div>
                 <img className={StaffStyle.imgStyle} src={DoctorImg} alt="Image of Doctor" />
             </div>
             <div className={StaffStyle.staffContainer}>
                 <img className={StaffStyle.imgStyle} src={DoctorImg} alt="Image of Doctor" />
                 <div className={StaffStyle.infoContainerRight}>
-                    <h2>{doctorName3}</h2>
+                    <h2 className={StaffStyle.tabletPortraitTitle}>{doctorName3}</h2>
                     <p><strong className={StaffStyle.strongStyle}>Qualifications: </strong>{doc3Qual1}, {doc3Qual2}, {doc3Qual3}, {doc3Qual4}</p>
-                    <p><strong className={StaffStyle.strongStyle}>About me: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum pharetra nibh, consequat volutpat lorem viverra vehicula. Nunc vulputate ipsum id lacus gravida, sit amet feugiat nibh pretium. Vivamus maximus fringilla massa vel accumsan. Curabitur eu porta neque. Suspendisse malesuada turpis ac sapien rhoncus, non tristique lorem malesuada. In cursus pellentesque sapien. Etiam nulla purus, accumsan non felis semper, mattis imperdiet nisl. Proin blandit arcu cursus imperdiet pharetra. Vivamus eu consequat nibh. Proin sit amet neque et dolor ornare accumsan. In hac habitasse platea dictumst. Suspendisse laoreet consectetur leo, a auctor est feugiat sed.</p>
+                    <p className={StaffStyle.desktopOnly}><strong className={StaffStyle.strongStyle}>About me: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum pharetra nibh, consequat volutpat lorem viverra vehicula. Nunc vulputate ipsum id lacus gravida, sit amet feugiat nibh pretium. Vivamus maximus fringilla massa vel accumsan. Curabitur eu porta neque. Suspendisse malesuada turpis ac sapien rhoncus, non tristique lorem malesuada. In cursus pellentesque sapien. Etiam nulla purus, accumsan non felis semper, mattis imperdiet nisl.</p>
                 </div>
             </div>
             <div className={StaffStyle.staffContainer}>
                 <div className={StaffStyle.infoContainerLeft}>
-                    <h2>{doctorName4}</h2>
+                    <h2 className={StaffStyle.tabletPortraitTitle}>{doctorName4}</h2>
                     <p><strong className={StaffStyle.strongStyle}>Qualifications: </strong>{doc4Qual1}, {doc4Qual2}, {doc4Qual3}, {doc4Qual4}</p>
-                    <p><strong className={StaffStyle.strongStyle}>About me: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et dui et lorem vestibulum lobortis. In vel feugiat augue, in molestie tellus. Integer sed diam non mauris aliquam luctus nec vel lacus. Morbi ultrices dictum maximus. Cras eu laoreet nisl. Integer orci nibh, laoreet eu auctor sed, dictum eget nibh. Duis feugiat et odio eu facilisis. Morbi rutrum non libero non malesuada.</p>
+                    <p className={StaffStyle.desktopOnly}><strong className={StaffStyle.strongStyle}>About me: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et dui et lorem vestibulum lobortis. In vel feugiat augue, in molestie tellus. Integer sed diam non mauris aliquam luctus nec vel lacus. Morbi ultrices dictum maximus. Cras eu laoreet nisl. Integer orci nibh, laoreet eu auctor sed, dictum eget nibh. Duis feugiat et odio eu facilisis. Morbi rutrum non libero non malesuada.</p>
                 </div>
                 <img className={StaffStyle.imgStyle} src={DoctorImg} alt="Image of Doctor" />
             </div>
             <div className={StaffStyle.staffContainer}>
                 <img className={StaffStyle.imgStyle} src={DoctorImg} alt="Image of Doctor" />
                 <div className={StaffStyle.infoContainerRight}>
-                    <h2>{doctorName5}</h2>
+                    <h2 className={StaffStyle.tabletPortraitTitle}>{doctorName5}</h2>
                     <p><strong className={StaffStyle.strongStyle}>Qualifications: </strong>{doc5Qual1}, {doc5Qual2}, {doc5Qual3}, {doc5Qual4}</p>
-                    <p><strong className={StaffStyle.strongStyle}>About me: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus consequat odio sit amet rutrum. Nunc egestas commodo cursus. Nullam maximus eros quis ipsum lobortis dictum. Donec cursus quam quis facilisis pulvinar. Nunc tristique vitae odio at faucibus. Nullam finibus est et quam bibendum facilisis. Fusce vitae malesuada dui. Aenean metus erat, pulvinar hendrerit finibus eu, ultricies placerat ipsum. Fusce nec turpis malesuada, vulputate dui ornare, mollis neque.</p>
+                    <p className={StaffStyle.desktopOnly}><strong className={StaffStyle.strongStyle}>About me: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus consequat odio sit amet rutrum. Nunc egestas commodo cursus. Nullam maximus eros quis ipsum lobortis dictum. Donec cursus quam quis facilisis pulvinar. Nunc tristique vitae odio at faucibus. Nullam finibus est et quam bibendum facilisis. Fusce vitae malesuada dui. Aenean metus erat, pulvinar hendrerit finibus eu, ultricies placerat ipsum. Fusce nec turpis malesuada, vulputate dui ornare, mollis neque.</p>
                 </div>
             </div>
         </div>
