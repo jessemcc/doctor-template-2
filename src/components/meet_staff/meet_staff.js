@@ -1,44 +1,49 @@
 import React from 'react';
 import StaffStyle from './meet_staff.module.scss';
-import DoctorImg from '../../media/doctor_image.jpg';
+import Doctor1 from '../../media/doctor_image_1.jpg';
+import Doctor2 from '../../media/doctor_image_2.jpg';
+import Doctor3 from '../../media/doctor_image_3.jpg';
+import Doctor4 from '../../media/doctor_image_4.jpg';
+import Doctor5 from '../../media/doctor_image_5.jpg';
+
 
 export const MeetStaff = () => {
-    const doctorName1 = "Doctor 1";
-    const doctorName2 = "Doctor 2";
-    const doctorName3 = "Doctor 3";
-    const doctorName4 = "Doctor 4";
-    const doctorName5 = "Doctor 5";
+    const doctorName1 = "Dr. Meilleur";
+    const doctorName2 = "Dr. Debbs";
+    const doctorName3 = "Dr. Osbourn";
+    const doctorName4 = "Dr. Wayne";
+    const doctorName5 = "Dr. Grayson";
 
-    const doc1Qual1 = "Qualification 1"
-    const doc1Qual2 = "Qualification 2"
-    const doc1Qual3 = "Qualification 3"
-    const doc1Qual4 = "Qualification 4"
+    const doc1Qual1 = "MD"
+    const doc1Qual2 = "MHSC"
+    const doc1Qual3 = "CCFP"
+    const doc1Qual4 = "BSc"
 
-    const doc2Qual1 = "Qualification 1"
-    const doc2Qual2 = "Qualification 2"
-    const doc2Qual3 = "Qualification 3"
-    const doc2Qual4 = "Qualification 4"
+    const doc2Qual1 = "BA"
+    const doc2Qual2 = "MD"
+    const doc2Qual3 = "LMCC"
+    const doc2Qual4 = "PH.D."
 
-    const doc3Qual1 = "Qualification 1"
-    const doc3Qual2 = "Qualification 2"
-    const doc3Qual3 = "Qualification 3"
-    const doc3Qual4 = "Qualification 4"
+    const doc3Qual1 = "HBSc"
+    const doc3Qual2 = "MD"
+    const doc3Qual3 = "CPSO"
+    const doc3Qual4 = "MBBS"
 
-    const doc4Qual1 = "Qualification 1"
-    const doc4Qual2 = "Qualification 2"
-    const doc4Qual3 = "Qualification 3"
-    const doc4Qual4 = "Qualification 4"
+    const doc4Qual1 = "MB"
+    const doc4Qual2 = "Ch.B"
+    const doc4Qual3 = "LMCC"
+    const doc4Qual4 = "CCFP"
 
-    const doc5Qual1 = "Qualification 1"
-    const doc5Qual2 = "Qualification 2"
-    const doc5Qual3 = "Qualification 3"
-    const doc5Qual4 = "Qualification 4"
+    const doc5Qual1 = "MD"
+    const doc5Qual2 = "MDCM"
+    const doc5Qual3 = "CCFP"
+    const doc5Qual4 = "FRCPC"
 
     return (
         <div className={StaffStyle.meetStaffContainer} id='meetStaffHash'>
             <h1>Meet Our Staff</h1>
             <div className={StaffStyle.staffContainer}>
-                <img className={StaffStyle.imgStyle} src={DoctorImg} alt="Image of Doctor" />
+                <img className={StaffStyle.imgStyle} src={Doctor1} alt="Image of Doctor" />
                 <div className={StaffStyle.infoContainerRight}>
                     <h2 className={StaffStyle.tabletPortraitTitle}>{doctorName1}</h2>
                     <p><strong className={StaffStyle.strongStyle}>Qualifications: </strong>{doc1Qual1}, {doc1Qual2}, {doc1Qual3}, {doc1Qual4}</p>
@@ -51,10 +56,10 @@ export const MeetStaff = () => {
                     <p><strong className={StaffStyle.strongStyle}>Qualifications: </strong>{doc2Qual1}, {doc2Qual2}, {doc2Qual3}, {doc2Qual4}</p>
                     <p className={StaffStyle.desktopOnly}><strong className={StaffStyle.strongStyle}>About me: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae fringilla augue, ut facilisis purus. Fusce vulputate dignissim lacus quis eleifend. Nunc facilisis eu risus vitae faucibus. Maecenas hendrerit felis non orci elementum suscipit. Vestibulum non mauris at diam dignissim luctus. Aliquam bibendum, dolor eget lobortis scelerisque, diam est scelerisque tortor, id egestas augue nibh fermentum dolor. Vivamus ullamcorper vel sem a tincidunt.</p>
                 </div>
-                <img className={StaffStyle.imgStyle} src={DoctorImg} alt="Image of Doctor" />
+                <img className={StaffStyle.imgStyle} src={Doctor2} alt="Image of Doctor" />
             </div>
             <div className={StaffStyle.staffContainer}>
-                <img className={StaffStyle.imgStyle} src={DoctorImg} alt="Image of Doctor" />
+                <img className={StaffStyle.imgStyle} src={Doctor3} alt="Image of Doctor" />
                 <div className={StaffStyle.infoContainerRight}>
                     <h2 className={StaffStyle.tabletPortraitTitle}>{doctorName3}</h2>
                     <p><strong className={StaffStyle.strongStyle}>Qualifications: </strong>{doc3Qual1}, {doc3Qual2}, {doc3Qual3}, {doc3Qual4}</p>
@@ -67,10 +72,10 @@ export const MeetStaff = () => {
                     <p><strong className={StaffStyle.strongStyle}>Qualifications: </strong>{doc4Qual1}, {doc4Qual2}, {doc4Qual3}, {doc4Qual4}</p>
                     <p className={StaffStyle.desktopOnly}><strong className={StaffStyle.strongStyle}>About me: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et dui et lorem vestibulum lobortis. In vel feugiat augue, in molestie tellus. Integer sed diam non mauris aliquam luctus nec vel lacus. Morbi ultrices dictum maximus. Cras eu laoreet nisl. Integer orci nibh, laoreet eu auctor sed, dictum eget nibh. Duis feugiat et odio eu facilisis. Morbi rutrum non libero non malesuada.</p>
                 </div>
-                <img className={StaffStyle.imgStyle} src={DoctorImg} alt="Image of Doctor" />
+                <img className={StaffStyle.imgStyle} src={Doctor4} alt="Image of Doctor" />
             </div>
             <div className={StaffStyle.staffContainer}>
-                <img className={StaffStyle.imgStyle} src={DoctorImg} alt="Image of Doctor" />
+                <img className={StaffStyle.imgStyle} src={Doctor5} alt="Image of Doctor" />
                 <div className={StaffStyle.infoContainerRight}>
                     <h2 className={StaffStyle.tabletPortraitTitle}>{doctorName5}</h2>
                     <p><strong className={StaffStyle.strongStyle}>Qualifications: </strong>{doc5Qual1}, {doc5Qual2}, {doc5Qual3}, {doc5Qual4}</p>

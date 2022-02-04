@@ -3,32 +3,16 @@ import DoctorImg from '../../media/doctor_image.jpg';
 import AboutStyle from './about.module.scss';
 
 export const About = () => {
-const doctorName = "Head Doctor";
-
-const qualification1 = "Qual1";
-const qualification2 = "Qual2";
-const qualification3 = "Qual3";
-const qualification4 = "Qual4";
-const qualification5 = "Qual5";
-const qualification6 = "Qual6";
+const doctorName = "Dr. Evans";
 
     return (
         <div className={AboutStyle.aboutContainer} id="aboutHash">
             <div className={AboutStyle.imageContainer}>
-                <h1 className={AboutStyle.phoneOnly}>About {doctorName}</h1>
+                <h1 className={AboutStyle.phoneOnly}>{doctorName} MD, PH.D.</h1>
                 <img className={AboutStyle.imageStyle} src={DoctorImg} alt="Image of Doctor" />
             </div>
             <div className={AboutStyle.infoContainer}>
-                <h1 className={AboutStyle.desktopOnly}>About {doctorName}</h1>
-                <h4>Qualifications</h4>
-                <ul className={AboutStyle.listStyle}>
-                    <li>{qualification1}</li>
-                    <li>{qualification2}</li>
-                    <li>{qualification3}</li>
-                    <li>{qualification4}</li>
-                    <li>{qualification5}</li>
-                    <li>{qualification6}</li>
-                </ul>
+                <h1 className={AboutStyle.desktopOnly}>{doctorName} MD, PH.D.</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur 
                     adipiscing elit. Aenean mattis pellentesque 
                     lacus, quis egestas purus efficitur et. 

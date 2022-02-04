@@ -4,7 +4,7 @@ import HeroStyle from "./hero.module.scss";
 import { HashLink } from 'react-router-hash-link';
 
 export const Hero = () => {
-    const clinicName = 'Appletree Medical Centre'
+    const clinicName = 'Serenity Clinic'
 
     return (
         <header className={HeroStyle.heroContainer} id="topHash">
